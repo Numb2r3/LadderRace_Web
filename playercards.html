@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFT Ladder Race - Player Cards</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js for the performance graph -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- html2canvas for capturing card as image -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply the Inter font family */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* A slightly darker gray for body */
+        }
+        /* Custom gradient for the chart background */
+        .chart-gradient {
+            background: linear-gradient(180deg, rgba(59, 130, 246, 0.2) 0%, rgba(59, 130, 246, 0) 100%);
+        }
+    </style>
+</head>
+<body class="text-white p-4 sm:p-6 md:p-8">
+
+    <div class="max-w-7xl mx-auto">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl sm:text-5xl font-bold tracking-tight text-blue-400">Ladder Race Standings</h1>
+            <p class="text-gray-400 mt-2">Player Performance Cards</p>
+        </header>
+
+        <!-- Player Cards Grid -->
+        <div id="playerCardsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Player Card will be inserted here by JavaScript -->
+            
+        </div>
+    </div>
+
+    <script>
+        // --- PLAYER DATA ---
+        // DELETED: The hard-coded 'players' array is gone.
+        // NEW: We will now fetch the data from players.json
+
+        // This function will contain all the logic to build the cards.
+        function generateCards(players) {
+            const container = document.getElementById('playerCardsContainer');
+
+            // Generate all cards and charts
+            players.forEach((player, index) => {
+                const { cardElement, chartId } = createPlayerCard(player, index);
+                container.appendChild(cardElement);
+                // We need to wait a moment for the element to be in the DOM before initializing the chart
+                setTimeout(() => {
+                    initializeChart(chartId, player.performance);
+                }, 0);
+            });
+        }
+        
+        // Fetch the player data from the JSON file
+        fetch('players.json')
+            .then(response => response.json())
+            .then(data => {
+                // Once the data is loaded, call the function to generate the cards
+                generateCards(data);
+            })
+            .catch(error => {
+                console.error("Error loading player data:", error);
+                // Display an error message on the page
+                const container = document.getElementById('playerCardsContainer');
+                container.innerHTML = `<p class="text-red-400 text-center col-span-full">Could not load player data. Make sure 'players.json' is in the same folder and you are running this from a local server.</p>`;
+            });
+
+
+        // --- NEW --- Function to download a card as a PNG
+        function downloadCard(cardId, playerName) {
+            const cardElement = document.getElementById(cardId);
+            
+            // Options for html2canvas to ensure a clean capture
+            const options = {
+                backgroundColor: '#1f2937', // Match card background color
+                useCORS: true, // Needed for external images
+                scale: 2 // Increase resolution for better quality
+            };
+
+            html2canvas(cardElement, options).then(canvas => {
+                const link = document.createElement('a');
+                link.download = `${playerName.replace(/\s+/g, '_')}-playercard.png`;
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+            }).catch(err => {
+                console.error("Error generating card image:", err);
+            });
+        }
+
+
+        // Function to create a single player card
+        function createPlayerCard(player, index) {
+            const chartId = `performanceChart-${index}`;
+            const cardId = `player-card-${index}`;
+
+            // Create stats HTML
+            let statsHtml = '';
+            for (const [key, value] of Object.entries(player.stats)) {
+                statsHtml += `
+                    <div class="bg-gray-900/50 p-3 rounded-lg text-center">
+                        <p class="text-sm text-blue-300">${key}</p>
+                        <p class="font-bold text-lg text-white">${value}</p>
+                    </div>
+                `;
+            }
+
+            // Card template
+            const cardElement = document.createElement('div');
+            // Assign a unique ID to the card element itself for capturing
+            cardElement.id = cardId; 
+            cardElement.className = "bg-gray-800 border border-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300";
+            cardElement.innerHTML = `
+                <div class="p-6">
+                    <h2 class="text-center text-2xl font-bold tracking-wide text-white">${player.name}</h2>
+                </div>
+                <!-- Little Legend Image -->
+                <div class="px-6">
+                    <img src="${player.imageUrl}" alt="Little Legend for ${player.name}" class="w-full h-auto object-cover rounded-lg aspect-square border-2 border-gray-700">
+                </div>
+                
+                <!-- Stats Section -->
+                <div class="p-6">
+                    <h3 class="text-lg font-semibold text-blue-400 mb-4">Player Stats</h3>
+                    <div class="grid grid-cols-3 gap-3">
+                        ${statsHtml}
+                    </div>
+                </div>
+
+                <!-- Performance Graph -->
+                <div class="p-6 border-t border-gray-700">
+                     <h3 class="text-lg font-semibold text-blue-400 mb-4">Recent Performance (Placement)</h3>
+                    <div class="relative h-48">
+                        <canvas id="${chartId}"></canvas>
+                    </div>
+                </div>
+
+                <!-- Download Button -->
+                <div class="p-6 border-t border-gray-700">
+                    <button onclick="downloadCard('${cardId}', '${player.name}')" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download Card
+                    </button>
+                </div>
+            `;
+            
+            return { cardElement, chartId };
+        }
+
+        // Function to initialize the chart for a card
+        function initializeChart(canvasId, performanceData) {
+            const ctx = document.getElementById(canvasId).getContext('2d');
+            
+            // Create a gradient for the chart's fill
+            const gradient = ctx.createLinearGradient(0, 0, 0, 150);
+            gradient.addColorStop(0, 'rgba(59, 130, 246, 0.4)');
+            gradient.addColorStop(1, 'rgba(59, 130, 246, 0)');
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: Array.from({ length: performanceData.length }, (_, i) => `G${i + 1}`),
+                    datasets: [{
+                        label: 'Placement',
+                        data: performanceData,
+                        borderColor: '#60A5FA', // A light blue color
+                        borderWidth: 2,
+                        pointBackgroundColor: '#DBEAFE',
+                        pointBorderColor: '#60A5FA',
+                        pointRadius: 4,
+                        tension: 0.4, // Makes the line smooth
+                        fill: true,
+                        backgroundColor: gradient,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            reverse: true, // Lower placement is better (1 is top)
+                            min: 1,
+                            max: 8,
+                            ticks: {
+                                stepSize: 1,
+                                color: '#9CA3AF' // Gray color for ticks
+                            },
+                             grid: {
+                                color: 'rgba(156, 163, 175, 0.2)' // Lighter grid lines
+                            }
+                        },
+                        x: {
+                            ticks: {
+                                color: '#9CA3AF'
+                            },
+                            grid: {
+                                display: false // Hide vertical grid lines
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false // Hide the legend
+                        },
+                        tooltip: {
+                            backgroundColor: '#1F2937',
+                            titleColor: '#E5E7EB',
+                            bodyColor: '#D1D5DB',
+                            borderColor: '#374151',
+                            borderWidth: 1,
+                            callbacks: {
+                                label: function(context) {
+                                    return `Placement: ${context.raw}`;
+                                }
+                            }
+                        }
+                    },
+                    // This helps ensure the chart is fully rendered before capture
+                    animation: {
+                        onComplete: () => {
+                           // Chart is ready
+                        }
+                    }
+                }
+            });
+        }
+
+        // DELETED: The old card generation loop is now inside the generateCards function.
+
+    </script>
+</body>
+</html>
