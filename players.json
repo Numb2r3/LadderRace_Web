@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Numb2r3",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_PenguKnight_Dark_Tier2.png",
+        "stats": {
+            "Win Rate": "0%",
+            "Avg. Placement": "0",
+            "Top 4 Rate": "0%",
+            "Games Played": "0",
+            "Current LP": "0",
+            "Peak Rank": "Unranked"
+        },
+        "performance": []
+    },
+    {
+        "name": "Schmiery",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiKaisa_Popstars_Popstars1_Tier1.png",
+        "stats": {
+            "Win Rate": "0%",
+            "Avg. Placement": "0",
+            "Top 4 Rate": "0%",
+            "Games Played": "0",
+            "Current LP": "0",
+            "Peak Rank": "Unranked"
+        },
+        "performance": []
+    }
+]
