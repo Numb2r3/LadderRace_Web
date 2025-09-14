@@ -1,28 +1,1022 @@
 [
     {
-        "name": "Numb2r3",
-        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_PenguKnight_Dark_Tier2.png",
+        "name": "Katsuta",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_MiniGolem_Anniversary_Variant1_Tier1.png",
+        "graphUrl": "graphs\\Katsuta_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
         "stats": {
-            "Win Rate": "0%",
-            "Avg. Placement": "0",
-            "Top 4 Rate": "0%",
-            "Games Played": "0",
-            "Current LP": "0",
-            "Peak Rank": "Unranked"
-        },
-        "performance": []
+            "Position": "1",
+            "Final Rank": "Challenger 1427 LP",
+            "Peak Rank": "Challenger 1471 LP",
+            "Top 4 Rate": "63%",
+            "Games Played": "518",
+            "LP Gained": "1809",
+            "LP / Game": "4.06",
+            "LP / Day": "47.61"
+        }
+    },
+    {
+        "name": "AFW MPLfreaki",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiMalphite_Mecha_Mecha1_Tier1.png",
+        "graphUrl": "graphs\\AFWMPLfreaki_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "2",
+            "Final Rank": "Challenger 1024 LP",
+            "Peak Rank": "Challenger 1191 LP",
+            "Top 4 Rate": "54%",
+            "Games Played": "778",
+            "LP Gained": "1885",
+            "LP / Game": "2.53",
+            "LP / Day": "48.33"
+        }
+    },
+    {
+        "name": "AFW shroomzz",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_PenguKnight_Esport_Esport1_Tier1.png",
+        "graphUrl": "graphs\\AFWshroomzz_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "3",
+            "Final Rank": "Challenger 902 LP",
+            "Peak Rank": "Challenger 1029 LP",
+            "Top 4 Rate": "54%",
+            "Games Played": "554",
+            "LP Gained": "2206",
+            "LP / Game": "4.11",
+            "LP / Day": "55.15"
+        }
+    },
+    {
+        "name": "NotCaillou",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Bunny_Base_Classic_Tier1.png",
+        "graphUrl": "graphs\\NotCaillou_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "stats": {
+            "Position": "4",
+            "Final Rank": "Challenger 868 LP",
+            "Peak Rank": "Grandmaster 868 LP",
+            "Top 4 Rate": "53%",
+            "Games Played": "703",
+            "LP Gained": "2133",
+            "LP / Game": "3.08",
+            "LP / Day": "53.32"
+        }
+    },
+    {
+        "name": "PMK PainGetsReal",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_GrumpyLion_Green_Tier3.png",
+        "graphUrl": "graphs\\PMKPainGetsReal_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "5",
+            "Final Rank": "Challenger 866 LP",
+            "Peak Rank": "Challenger 995 LP",
+            "Top 4 Rate": "58%",
+            "Games Played": "260",
+            "LP Gained": "1014",
+            "LP / Game": "7.8",
+            "LP / Day": "29.82"
+        }
+    },
+    {
+        "name": "domijura",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiMissFortune_BattleBunny_BattleBunny1_Tier1.CHIBI_MissFortune_BattleBunny.png",
+        "graphUrl": "graphs\\domijura_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "6",
+            "Final Rank": "Challenger 854 LP",
+            "Peak Rank": "Challenger 854 LP",
+            "Top 4 Rate": "53%",
+            "Games Played": "526",
+            "LP Gained": "1394",
+            "LP / Game": "3.1",
+            "LP / Day": "38.72"
+        }
+    },
+    {
+        "name": "YELLOWSUPERBUS69",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_SeaAngel_Base_Varant3_Tier1.LL_SeaAngel_Base.png",
+        "graphUrl": "graphs\\YELLOWSUPERBUS69_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "7",
+            "Final Rank": "Challenger 781 LP",
+            "Peak Rank": "Challenger 834 LP",
+            "Top 4 Rate": "77%",
+            "Games Played": "100",
+            "LP Gained": "171",
+            "LP / Game": "6.84",
+            "LP / Day": "57.0"
+        }
+    },
+    {
+        "name": "YakuzaTyler",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiKaisa_StarGuardian_StarGuardian_Tier1.CHIBI_Kaisa_StarGuardian.png",
+        "graphUrl": "graphs\\YakuzaTyler_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "8",
+            "Final Rank": "Challenger 748 LP",
+            "Peak Rank": "Challenger 809 LP",
+            "Top 4 Rate": "57%",
+            "Games Played": "335",
+            "LP Gained": "1662",
+            "LP / Game": "5.33",
+            "LP / Day": "41.55"
+        }
+    },
+    {
+        "name": "Yore2",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Miner_Rainbow_Tier3.png",
+        "graphUrl": "graphs\\Yore2_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "stats": {
+            "Position": "9",
+            "Final Rank": "Challenger 733 LP",
+            "Peak Rank": "Grandmaster 733 LP",
+            "Top 4 Rate": "53%",
+            "Games Played": "564",
+            "LP Gained": "1441",
+            "LP / Game": "3.09",
+            "LP / Day": "42.38"
+        }
+    },
+    {
+        "name": "neilo",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiLeeSin_DragonFist_DragonFist1_Tier1.png",
+        "graphUrl": "graphs\\neilo_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "10",
+            "Final Rank": "Challenger 706 LP",
+            "Peak Rank": "Challenger 781 LP",
+            "Top 4 Rate": "51%",
+            "Games Played": "568",
+            "LP Gained": "1938",
+            "LP / Game": "3.46",
+            "LP / Day": "53.83"
+        }
     },
     {
         "name": "Schmiery",
         "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiKaisa_Popstars_Popstars1_Tier1.png",
+        "graphUrl": "graphs\\Schmiery_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
         "stats": {
-            "Win Rate": "0%",
-            "Avg. Placement": "0",
-            "Top 4 Rate": "0%",
-            "Games Played": "0",
-            "Current LP": "0",
-            "Peak Rank": "Unranked"
-        },
-        "performance": []
+            "Position": "11",
+            "Final Rank": "Grandmaster 681 LP",
+            "Peak Rank": "Challenger 1024 LP",
+            "Top 4 Rate": "51%",
+            "Games Played": "595",
+            "LP Gained": "2222",
+            "LP / Game": "3.77",
+            "LP / Day": "56.97"
+        }
+    },
+    {
+        "name": "AFW Chordo",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Bunny_WitchBunbun_Witch4_Tier3.LL_Bunny_Witch.png",
+        "graphUrl": "graphs\\AFWChordo_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "stats": {
+            "Position": "12",
+            "Final Rank": "Grandmaster 667 LP",
+            "Peak Rank": "Grandmaster 700 LP",
+            "Top 4 Rate": "60%",
+            "Games Played": "253",
+            "LP Gained": "651",
+            "LP / Game": "6.08",
+            "LP / Day": "29.59"
+        }
+    },
+    {
+        "name": "AFW Dor\u00e9to",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Choncc_Band_Band5_Tier3.png",
+        "graphUrl": "graphs\\AFWDor\u00e9to_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "13",
+            "Final Rank": "Grandmaster 657 LP",
+            "Peak Rank": "Challenger 718 LP",
+            "Top 4 Rate": "57%",
+            "Games Played": "203",
+            "LP Gained": "1053",
+            "LP / Game": "6.12",
+            "LP / Day": "35.1"
+        }
+    },
+    {
+        "name": "toasty and junko",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Bunny_WitchBunbun_Witch5_Tier3.LL_Bunny_Witch.png",
+        "graphUrl": "graphs\\toastyandjunko_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "14",
+            "Final Rank": "Challenger 618 LP",
+            "Peak Rank": "Challenger 916 LP",
+            "Top 4 Rate": "54%",
+            "Games Played": "432",
+            "LP Gained": "414",
+            "LP / Game": "1.62",
+            "LP / Day": "15.33"
+        }
+    },
+    {
+        "name": "Asad Fuego",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiEkko_FireLight_FireLight1_Tier1.CHIBI_Ekko_FireLight.png",
+        "graphUrl": "graphs\\AsadFuego_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "15",
+            "Final Rank": "Grandmaster 615 LP",
+            "Peak Rank": "Challenger 776 LP",
+            "Top 4 Rate": "54%",
+            "Games Played": "435",
+            "LP Gained": "1960",
+            "LP / Game": "4.59",
+            "LP / Day": "49.0"
+        }
+    },
+    {
+        "name": "Tonsof",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiKaisa_StarGuardian_StarGuardian_Tier1.CHIBI_Kaisa_StarGuardian.png",
+        "graphUrl": "graphs\\Tonsof_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "16",
+            "Final Rank": "Grandmaster 574 LP",
+            "Peak Rank": "Challenger 904 LP",
+            "Top 4 Rate": "54%",
+            "Games Played": "520",
+            "LP Gained": "1792",
+            "LP / Game": "3.57",
+            "LP / Day": "44.8"
+        }
+    },
+    {
+        "name": "AFW 5454",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Koala_Base_Variant2_Tier1.png",
+        "graphUrl": "graphs\\AFW5454_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "stats": {
+            "Position": "17",
+            "Final Rank": "Grandmaster 423 LP",
+            "Peak Rank": "Grandmaster 509 LP",
+            "Top 4 Rate": "55%",
+            "Games Played": "334",
+            "LP Gained": "1313",
+            "LP / Game": "4.38",
+            "LP / Day": "38.62"
+        }
+    },
+    {
+        "name": "RHYTHM TA",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_SmolKnifeDog_Project_Project1_Tier3.LL_SmolKnifeDog_Project_Variant1.png",
+        "graphUrl": "graphs\\RHYTHMTA_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "18",
+            "Final Rank": "Master 383 LP",
+            "Peak Rank": "Challenger 599 LP",
+            "Top 4 Rate": "56%",
+            "Games Played": "289",
+            "LP Gained": "317",
+            "LP / Game": "3.05",
+            "LP / Day": "13.21"
+        }
+    },
+    {
+        "name": "Cnex",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiRiven_Dawnbringer_Dawnbringer_Tier1.CHIBI_Riven_Dawnbringer.png",
+        "graphUrl": "graphs\\Cnex_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "stats": {
+            "Position": "19",
+            "Final Rank": "Master 363 LP",
+            "Peak Rank": "Grandmaster 452 LP",
+            "Top 4 Rate": "55%",
+            "Games Played": "316",
+            "LP Gained": "1945",
+            "LP / Game": "6.25",
+            "LP / Day": "48.62"
+        }
+    },
+    {
+        "name": "EffortlessPengu",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiTristana_PenguCosplay_PenguCosplay_Tier1.CHIBI_Tristana_PenguCosplay.png",
+        "graphUrl": "graphs\\EffortlessPengu_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "20",
+            "Final Rank": "Master 304 LP",
+            "Peak Rank": "Challenger 742 LP",
+            "Top 4 Rate": "53%",
+            "Games Played": "403",
+            "LP Gained": "660",
+            "LP / Game": "1.94",
+            "LP / Day": "18.33"
+        }
+    },
+    {
+        "name": "Momor Vig",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_PenguKnight_Classic_Tier3.png",
+        "graphUrl": "graphs\\MomorVig_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "stats": {
+            "Position": "21",
+            "Final Rank": "Master 268 LP",
+            "Peak Rank": "Master 331 LP",
+            "Top 4 Rate": "57%",
+            "Games Played": "232",
+            "LP Gained": "906",
+            "LP / Game": "4.79",
+            "LP / Day": "26.65"
+        }
+    },
+    {
+        "name": "PRO5EKKO",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_StyleTwoThresh_HighNoon_HighNoon_Tier1.TFT_Style2_Thresh_HighNoon.png",
+        "graphUrl": "graphs\\PRO5EKKO_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Challenger.png",
+        "stats": {
+            "Position": "22",
+            "Final Rank": "Master 216 LP",
+            "Peak Rank": "Challenger 538 LP",
+            "Top 4 Rate": "51%",
+            "Games Played": "641",
+            "LP Gained": "1506",
+            "LP / Game": "2.43",
+            "LP / Day": "37.65"
+        }
+    },
+    {
+        "name": "Sonken",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiCaitlyn_Carbs2_Carbs2_Tier1.CHIBI_Caitlyn_Carbs2.png",
+        "graphUrl": "graphs\\Sonken_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "stats": {
+            "Position": "23",
+            "Final Rank": "Master 175 LP",
+            "Peak Rank": "Master 175 LP",
+            "Top 4 Rate": "56%",
+            "Games Played": "247",
+            "LP Gained": "1298",
+            "LP / Game": "5.67",
+            "LP / Day": "33.28"
+        }
+    },
+    {
+        "name": "YouBetterKnowMe",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_RazorBeak_Base_Variant5_Tier1.png",
+        "graphUrl": "graphs\\YouBetterKnowMe_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "stats": {
+            "Position": "24",
+            "Final Rank": "Master 168 LP",
+            "Peak Rank": "Master 168 LP",
+            "Top 4 Rate": "50%",
+            "Games Played": "406",
+            "LP Gained": "1659",
+            "LP / Game": "4.14",
+            "LP / Day": "48.79"
+        }
+    },
+    {
+        "name": "PowerUpInPerson",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_PowderMonkey_Base_Variant3_Tier1.LL_PowderMonkey_Base_Variant3.png",
+        "graphUrl": "graphs\\PowerUpInPerson_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "stats": {
+            "Position": "25",
+            "Final Rank": "Master 142 LP",
+            "Peak Rank": "Master 177 LP",
+            "Top 4 Rate": "55%",
+            "Games Played": "322",
+            "LP Gained": "1377",
+            "LP / Game": "4.39",
+            "LP / Day": "34.42"
+        }
+    },
+    {
+        "name": "TMEY",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiEzreal_Base_Classic_Tier1.CHIBI_Ezreal_Base.png",
+        "graphUrl": "graphs\\TMEY_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "stats": {
+            "Position": "26",
+            "Final Rank": "Master 133 LP",
+            "Peak Rank": "Grandmaster 521 LP",
+            "Top 4 Rate": "49%",
+            "Games Played": "775",
+            "LP Gained": "533",
+            "LP / Game": "0.81",
+            "LP / Day": "14.81"
+        }
+    },
+    {
+        "name": "Tairsu",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_AoShin_SpiritFairy_SpiritFairy4_Tier3.png",
+        "graphUrl": "graphs\\Tairsu_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "stats": {
+            "Position": "27",
+            "Final Rank": "Master 81 LP",
+            "Peak Rank": "Grandmaster 471 LP",
+            "Top 4 Rate": "51%",
+            "Games Played": "470",
+            "LP Gained": "217",
+            "LP / Game": "0.91",
+            "LP / Day": "8.04"
+        }
+    },
+    {
+        "name": "FartyFerret",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_StyleTwoYasuo_Nightbringer_Nightbringer1_Tier1.TFT_Style2_Yasuo_Nightbringer.png",
+        "graphUrl": "graphs\\FartyFerret_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "stats": {
+            "Position": "28",
+            "Final Rank": "Master 55 LP",
+            "Peak Rank": "Master 278 LP",
+            "Top 4 Rate": "54%",
+            "Games Played": "247",
+            "LP Gained": "652",
+            "LP / Game": "4.32",
+            "LP / Day": "22.48"
+        }
+    },
+    {
+        "name": "Ferry",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiYasuo_Dragonmancer_Dragonmancer1_Tier1.png",
+        "graphUrl": "graphs\\Ferry_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "stats": {
+            "Position": "29",
+            "Final Rank": "Master 14 LP",
+            "Peak Rank": "Master 14 LP",
+            "Top 4 Rate": "57%",
+            "Games Played": "133",
+            "LP Gained": "1521",
+            "LP / Game": "12.57",
+            "LP / Day": "38.02"
+        }
+    },
+    {
+        "name": "D\u00c4\u00dcP",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiJinx_Firecracker_Firecracker1_Tier1.png",
+        "graphUrl": "graphs\\D\u00c4\u00dcP_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "stats": {
+            "Position": "30",
+            "Final Rank": "Master 10 LP",
+            "Peak Rank": "Master 135 LP",
+            "Top 4 Rate": "58%",
+            "Games Played": "189",
+            "LP Gained": "714",
+            "LP / Game": "5.03",
+            "LP / Day": "21.0"
+        }
+    },
+    {
+        "name": "MrKev1987",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiYone_Blossom_Blossom_Tier1.png",
+        "graphUrl": "graphs\\MrKev1987_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "stats": {
+            "Position": "31",
+            "Final Rank": "Master 10 LP",
+            "Peak Rank": "Master 292 LP",
+            "Top 4 Rate": "55%",
+            "Games Played": "210",
+            "LP Gained": "874",
+            "LP / Game": "5.2",
+            "LP / Day": "24.28"
+        }
+    },
+    {
+        "name": "k4tamin",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiLillia_SpiritBlossom_SpiritBlossom_Tier1.CHIBI_Lillia_SpiritBlossom.png",
+        "graphUrl": "graphs\\k4tamin_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Grandmaster.png",
+        "stats": {
+            "Position": "32",
+            "Final Rank": "Master 0 LP",
+            "Peak Rank": "Grandmaster 349 LP",
+            "Top 4 Rate": "49%",
+            "Games Played": "249",
+            "LP Gained": "452",
+            "LP / Game": "3.07",
+            "LP / Day": "13.29"
+        }
+    },
+    {
+        "name": "YakuzaLea",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiKaisa_StarGuardian_StarGuardian_Tier1.CHIBI_Kaisa_StarGuardian.png",
+        "graphUrl": "graphs\\YakuzaLea_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Master.png",
+        "stats": {
+            "Position": "33",
+            "Final Rank": "Master 0 LP",
+            "Peak Rank": "Master 258 LP",
+            "Top 4 Rate": "50%",
+            "Games Played": "381",
+            "LP Gained": "1164",
+            "LP / Game": "3.31",
+            "LP / Day": "29.85"
+        }
+    },
+    {
+        "name": "Mckonsti",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiMissFortune_BattleBunny_BattleBunny1_Tier1.CHIBI_MissFortune_BattleBunny.png",
+        "graphUrl": "graphs\\Mckonsti_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "stats": {
+            "Position": "34",
+            "Final Rank": "Diamond II 0 LP",
+            "Peak Rank": "Diamond I 96 LP",
+            "Top 4 Rate": "54%",
+            "Games Played": "212",
+            "LP Gained": "1385",
+            "LP / Game": "6.96",
+            "LP / Day": "35.51"
+        }
+    },
+    {
+        "name": "Essah98",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Duckbill_Base_Variant5_Tier1.png",
+        "graphUrl": "graphs\\Essah98_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "stats": {
+            "Position": "35",
+            "Final Rank": "Diamond III 53 LP",
+            "Peak Rank": "Diamond II 97 LP",
+            "Top 4 Rate": "52%",
+            "Games Played": "415",
+            "LP Gained": "117",
+            "LP / Game": "0.68",
+            "LP / Day": "4.88"
+        }
+    },
+    {
+        "name": "Carpenoktem",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_StyleTwoYasuo_Nightbringer_Nightbringer1_Tier1.TFT_Style2_Yasuo_Nightbringer.png",
+        "graphUrl": "graphs\\Carpenoktem_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "stats": {
+            "Position": "36",
+            "Final Rank": "Diamond IV 0 LP",
+            "Peak Rank": "Diamond IV 94 LP",
+            "Top 4 Rate": "52%",
+            "Games Played": "193",
+            "LP Gained": "1300",
+            "LP / Game": "7.26",
+            "LP / Day": "32.5"
+        }
+    },
+    {
+        "name": "TFT Zenek",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_JawDragon_Mecha_Mecha4_Tier3.png",
+        "graphUrl": "graphs\\TFTZenek_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "stats": {
+            "Position": "37",
+            "Final Rank": "Diamond IV 0 LP",
+            "Peak Rank": "Diamond II 45 LP",
+            "Top 4 Rate": "51%",
+            "Games Played": "244",
+            "LP Gained": "733",
+            "LP / Game": "3.58",
+            "LP / Day": "22.21"
+        }
+    },
+    {
+        "name": "2     3Zwanzig",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_PenguKnight_Dark_Tier2.png",
+        "graphUrl": "graphs\\23Zwanzig_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "stats": {
+            "Position": "38",
+            "Final Rank": "Diamond IV 0 LP",
+            "Peak Rank": "Diamond IV 97 LP",
+            "Top 4 Rate": "61%",
+            "Games Played": "122",
+            "LP Gained": "1170",
+            "LP / Game": "10.0",
+            "LP / Day": "32.5"
+        }
+    },
+    {
+        "name": "PEPEGA JUICE",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Kiko_Base_Variant3_Tier1.LL_Kiko_Base_Variant3.png",
+        "graphUrl": "graphs\\PEPEGAJUICE_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Diamond.png",
+        "stats": {
+            "Position": "39",
+            "Final Rank": "Diamond IV 0 LP",
+            "Peak Rank": "Diamond II 55 LP",
+            "Top 4 Rate": "52%",
+            "Games Played": "428",
+            "LP Gained": "800",
+            "LP / Game": "2.4",
+            "LP / Day": "22.22"
+        }
+    },
+    {
+        "name": "\uff92\u03b1 \u041f\u03b1 \u00d0\u0446\uff3a \uff82",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Kiko_Base_Variant2_Tier1.LL_Kiko_Base_Variant2.png",
+        "graphUrl": "graphs\\\uff92\u03b1\u041f\u03b1\u00d0\u0446\uff3a\uff82_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "40",
+            "Final Rank": "Emerald I 76 LP",
+            "Peak Rank": "Emerald I 76 LP",
+            "Top 4 Rate": "57%",
+            "Games Played": "107",
+            "LP Gained": "606",
+            "LP / Game": "8.78",
+            "LP / Day": "16.83"
+        }
+    },
+    {
+        "name": "\uc870\uc6a9\ud788 \ud558\uc138\uc6a9",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiIrelia_DivineSword_DivineSword1_Tier1.png",
+        "graphUrl": "graphs\\\uc870\uc6a9\ud788\ud558\uc138\uc6a9_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "41",
+            "Final Rank": "Emerald I 68 LP",
+            "Peak Rank": "Emerald I 74 LP",
+            "Top 4 Rate": "52%",
+            "Games Played": "192",
+            "LP Gained": "1193",
+            "LP / Game": "6.38",
+            "LP / Day": "31.39"
+        }
+    },
+    {
+        "name": "naschkatziii",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_SGCat_Dango_Tier1.png",
+        "graphUrl": "graphs\\naschkatziii_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "42",
+            "Final Rank": "Emerald II 51 LP",
+            "Peak Rank": "Emerald II 51 LP",
+            "Top 4 Rate": "57%",
+            "Games Played": "69",
+            "LP Gained": "1142",
+            "LP / Game": "17.84",
+            "LP / Day": "28.55"
+        }
+    },
+    {
+        "name": "StupidGaME",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_DoughCat_Base_Variant1_Tier1.LL_DoughCat_Variant1.png",
+        "graphUrl": "graphs\\StupidGaME_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "43",
+            "Final Rank": "Emerald II 30 LP",
+            "Peak Rank": "Emerald I 37 LP",
+            "Top 4 Rate": "64%",
+            "Games Played": "69",
+            "LP Gained": "451",
+            "LP / Game": "8.67",
+            "LP / Day": "17.35"
+        }
+    },
+    {
+        "name": "shurkou",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiBlitzcrank_Base_Classic_Tier1.CHIBI_Blitzcrank_Base.png",
+        "graphUrl": "graphs\\shurkou_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "44",
+            "Final Rank": "Emerald II 10 LP",
+            "Peak Rank": "Emerald I 74 LP",
+            "Top 4 Rate": "53%",
+            "Games Played": "150",
+            "LP Gained": "197",
+            "LP / Game": "2.94",
+            "LP / Day": "5.97"
+        }
+    },
+    {
+        "name": "Suzed",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Duckbill_Base_Variant7_Tier1.png",
+        "graphUrl": "graphs\\Suzed_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "45",
+            "Final Rank": "Emerald III 96 LP",
+            "Peak Rank": "Emerald II 87 LP",
+            "Top 4 Rate": "55%",
+            "Games Played": "132",
+            "LP Gained": "696",
+            "LP / Game": "6.39",
+            "LP / Day": "17.85"
+        }
+    },
+    {
+        "name": "HDFbaer",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiZed_Base_Classic_Tier1.png",
+        "graphUrl": "graphs\\HDFbaer_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "46",
+            "Final Rank": "Emerald III 91 LP",
+            "Peak Rank": "Emerald II 24 LP",
+            "Top 4 Rate": "62%",
+            "Games Played": "193",
+            "LP Gained": "613",
+            "LP / Game": "3.67",
+            "LP / Day": "17.03"
+        }
+    },
+    {
+        "name": "Siris",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiRiven_Dawnbringer_Dawnbringer_Tier1.CHIBI_Riven_Dawnbringer.png",
+        "graphUrl": "graphs\\Siris_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "47",
+            "Final Rank": "Emerald III 49 LP",
+            "Peak Rank": "Emerald II 81 LP",
+            "Top 4 Rate": "55%",
+            "Games Played": "182",
+            "LP Gained": "920",
+            "LP / Game": "5.29",
+            "LP / Day": "25.56"
+        }
+    },
+    {
+        "name": "Unex",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_StyleTwoJhin_DarkCosmic_DarkCosmic_Tier1.TFT_Style2_Jhin_Dark_Cosmic.png",
+        "graphUrl": "graphs\\Unex_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "48",
+            "Final Rank": "Emerald III 25 LP",
+            "Peak Rank": "Emerald III 72 LP",
+            "Top 4 Rate": "69%",
+            "Games Played": "49",
+            "LP Gained": "43",
+            "LP / Game": "2.53",
+            "LP / Day": "1.95"
+        }
+    },
+    {
+        "name": "Wobbin",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_StyleTwoJinx_Carbs2_Carbs2_Tier1.TFT_Style2_Jinx_Carbs2.png",
+        "graphUrl": "graphs\\Wobbin_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "49",
+            "Final Rank": "Emerald III 14 LP",
+            "Peak Rank": "Emerald II 68 LP",
+            "Top 4 Rate": "48%",
+            "Games Played": "153",
+            "LP Gained": "874",
+            "LP / Game": "6.03",
+            "LP / Day": "22.41"
+        }
+    },
+    {
+        "name": "Ava81",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiGwen_SoulFighter_SoulFighter_Tier1.png",
+        "graphUrl": "graphs\\Ava81_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "50",
+            "Final Rank": "Emerald IV 64 LP",
+            "Peak Rank": "Emerald III 58 LP",
+            "Top 4 Rate": "54%",
+            "Games Played": "103",
+            "LP Gained": "956",
+            "LP / Game": "9.96",
+            "LP / Day": "23.9"
+        }
+    },
+    {
+        "name": "Revyn40k",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiIrelia_DivineSword_DivineSword1_Tier1.png",
+        "graphUrl": "graphs\\Revyn40k_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "51",
+            "Final Rank": "Emerald IV 45 LP",
+            "Peak Rank": "Emerald IV 88 LP",
+            "Top 4 Rate": "49%",
+            "Games Played": "91",
+            "LP Gained": "505",
+            "LP / Game": "6.64",
+            "LP / Day": "14.85"
+        }
+    },
+    {
+        "name": "Inbu",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Miner_Rainbow_Tier3.png",
+        "graphUrl": "graphs\\Inbu_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "52",
+            "Final Rank": "Emerald IV 5 LP",
+            "Peak Rank": "Emerald IV 81 LP",
+            "Top 4 Rate": "54%",
+            "Games Played": "109",
+            "LP Gained": "691",
+            "LP / Game": "6.91",
+            "LP / Day": "17.27"
+        }
+    },
+    {
+        "name": "Cano",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Miner_Rainbow_Tier3.png",
+        "graphUrl": "graphs\\Cano_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Emerald.png",
+        "stats": {
+            "Position": "53",
+            "Final Rank": "Emerald IV 0 LP",
+            "Peak Rank": "Emerald III 68 LP",
+            "Top 4 Rate": "51%",
+            "Games Played": "292",
+            "LP Gained": "361",
+            "LP / Game": "1.8",
+            "LP / Day": "12.89"
+        }
+    },
+    {
+        "name": "Cr4ative",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiOrianna_SpiritBlossom_SpiritBlossom_Tier1.CHIBI_Orianna_SpiritBlossom.png",
+        "graphUrl": "graphs\\Cr4ative_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Platinum.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Platinum.png",
+        "stats": {
+            "Position": "54",
+            "Final Rank": "Platinum I 36 LP",
+            "Peak Rank": "Platinum I 61 LP",
+            "Top 4 Rate": "53%",
+            "Games Played": "215",
+            "LP Gained": "302",
+            "LP / Game": "2.31",
+            "LP / Day": "13.13"
+        }
+    },
+    {
+        "name": "TwTvTeaTimePrime",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_StyleTwoJhin_Base_Classic_Tier1.TFT_Style2_Jhin.png",
+        "graphUrl": "graphs\\TwTvTeaTimePrime_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Platinum.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Platinum.png",
+        "stats": {
+            "Position": "55",
+            "Final Rank": "Platinum II 61 LP",
+            "Peak Rank": "Platinum II 71 LP",
+            "Top 4 Rate": "49%",
+            "Games Played": "183",
+            "LP Gained": "1198",
+            "LP / Game": "6.97",
+            "LP / Day": "29.95"
+        }
+    },
+    {
+        "name": "God King Galz",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiIrelia_Porcelain_Porcelain1_Tier1.Chibi_Irelia_Porcelain.png",
+        "graphUrl": "graphs\\GodKingGalz_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Platinum.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Platinum.png",
+        "stats": {
+            "Position": "56",
+            "Final Rank": "Platinum IV 55 LP",
+            "Peak Rank": "Platinum II 37 LP",
+            "Top 4 Rate": "53%",
+            "Games Played": "137",
+            "LP Gained": "117",
+            "LP / Game": "2.92",
+            "LP / Day": "5.09"
+        }
+    },
+    {
+        "name": "peepo",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Snake_Base_Classic_Tier1.LL_Snake_Base.png",
+        "graphUrl": "graphs\\peepo_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Platinum.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Platinum.png",
+        "stats": {
+            "Position": "57",
+            "Final Rank": "Platinum IV 44 LP",
+            "Peak Rank": "Platinum III 14 LP",
+            "Top 4 Rate": "56%",
+            "Games Played": "50",
+            "LP Gained": "278",
+            "LP / Game": "7.94",
+            "LP / Day": "8.18"
+        }
+    },
+    {
+        "name": "Numb3r2",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_PenguKnight_Dark_Tier2.png",
+        "graphUrl": "graphs\\Numb3r2_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Gold.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Gold.png",
+        "stats": {
+            "Position": "58",
+            "Final Rank": "Gold I 96 LP",
+            "Peak Rank": "Gold I 96 LP",
+            "Top 4 Rate": "88%",
+            "Games Played": "8",
+            "LP Gained": "55",
+            "LP / Game": "18.33",
+            "LP / Day": "7.86"
+        }
+    },
+    {
+        "name": "Killean",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_Minion_Base_Variant1_Tier1.LL_Minion_Base_Variant1.png",
+        "graphUrl": "graphs\\Killean_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Gold.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Gold.png",
+        "stats": {
+            "Position": "59",
+            "Final Rank": "Gold III 0 LP",
+            "Peak Rank": "Gold III 39 LP",
+            "Top 4 Rate": "62%",
+            "Games Played": "21",
+            "LP Gained": "340",
+            "LP / Game": "28.33",
+            "LP / Day": "15.45"
+        }
+    },
+    {
+        "name": "D3rGam3r",
+        "imageUrl": "ddragon/15.18.1/img/tft-tactician/Tooltip_ChibiJinx_Base_Classic_Tier1.png",
+        "graphUrl": "graphs\\D3rGam3r_graph.png",
+        "finalRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Bronze.png",
+        "peakRankIconUrl": "ddragon/15.18.1/img/tft-regalia/TFT_Regalia_Bronze.png",
+        "stats": {
+            "Position": "60",
+            "Final Rank": "Bronze I 99 LP",
+            "Peak Rank": "Bronze I 99 LP",
+            "Top 4 Rate": "50%",
+            "Games Played": "6",
+            "LP Gained": "165",
+            "LP / Game": "165.0",
+            "LP / Day": "5.32"
+        }
     }
 ]
